@@ -18,17 +18,17 @@ namespace Tyuiu.AlmukhametovTI.Sprint4.Task0.V30
             Console.WriteLine("**********************************************************************");
             Console.WriteLine("* Спринт #4                                                          *");
             Console.WriteLine("* Задание #0                                                         *");
-            Console.WriteLine("* Вариант #30                                                        *");
+            Console.WriteLine("* Вариант #12                                                        *");
             Console.WriteLine("**********************************************************************");
             Console.WriteLine("* УСЛОВИЕ: Дан одномерный целочисленный массив на 10 элементов       *");
             Console.WriteLine("* заполненный статическими значениями в диапазоне от 0 до 9          *");
-            Console.WriteLine("* подсчитать сумму четных элементов массива.   {9, 8, 4, 6, 9, 4, 3, *");
-            Console.WriteLine("* 6, 1, 2}                                                           *");
+            Console.WriteLine("* подсчитать сумму четных элементов массива.   {4, 8, 6, 4, 9, 5, 8, *");
+            Console.WriteLine("* 7, 8, 4, 7, 6, 8}                                                  *");
             Console.WriteLine("**********************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                   *");
             Console.WriteLine("**********************************************************************");
 
-            int[] Array = { 9, 8, 4, 6, 9, 4, 3, 6, 1, 2 };
+            int[] Array = { 4, 8, 6, 4, 9, 5, 8, 7, 8, 4, 7, 6, 8 };
             int sum = 0;
 
             foreach (int num in Array)
@@ -43,7 +43,7 @@ namespace Tyuiu.AlmukhametovTI.Sprint4.Task0.V30
             Console.WriteLine("* РЕЗУЛЬТАТ                                                          *");
             Console.WriteLine("**********************************************************************");
 
-            Console.WriteLine(" Сумма чётных элементов массива = " + ds.GetSumEvenArrEl(Array));
+            Console.WriteLine(" Сумма нечётных элементов массива = " + ds.GetSumEvenArrEl(Array));
 
             Console.ReadKey();
         }
